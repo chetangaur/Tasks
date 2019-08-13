@@ -30,9 +30,9 @@ function countdown(minutes) {
             timeoutHandle=setTimeout(tick, 1000);
         } else {
 
-            if(mins > 29){
+            if(mins > 1){
 
-               // countdown(mins-1);   never reach “00? issue solved:Contributed by Victor Streithorst
+               // countdown(mins-1);   never reach â€œ00? issue solved:Contributed by Victor Streithorst
                setTimeout(function () { countdown(mins - 1); }, 1000);
 
             }
