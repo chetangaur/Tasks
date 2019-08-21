@@ -1,0 +1,28 @@
+Selenium with Python
+
+# To install selenium 
+    Go to the location where python is installed and open cmd 
+    then write following command --
+    pip install -U selenium
+  To check weather selenium is present or not in your system --
+    pip list
+# Install pycharm for working with selenium
+
+
+(*) Basic WebDriver commands :-
+         from selenium import webdriver 
+         from selenium.webdriver.common.keys import Keys
+   
+     driver=webdriver.Chrome(give executable_path if webdriver not present in same folder where your prog. file exsist)
+     driver.get("Write Url of page which you want to open in your browser")
+(*) To capture title and current_url
+        print(driver.title)
+        print(driver.current_url) 
+# To click something on webpage by using x_path
+      driver.find_element_by_xpath("copy the x_path of button you want to click").click()
+
+time.sleep(5) {to hold webpage}
+
+# To close webpage -
+       driver.close()  {close current or focused webpage}
+       driver.quit()    {close all webpages}
