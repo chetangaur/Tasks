@@ -1,0 +1,5 @@
+Day 2 [Selenium Notes]
+
+•	Navigation Purpose ( For comeback and go to pervious and next website respectively)
+  -->	Driver.back() [To comeback to previous website]
+  -->	Driver.forward() [To go to next website]
