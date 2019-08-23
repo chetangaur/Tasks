@@ -1,0 +1,17 @@
+# Web driver Conditional Command
+-->	To identify something is present or not on website
+           1.	Go to website and select that particular part/word and inspect it.
+           2.	According to the type of that part classify weather it is name, id, x_path etc.
+           3.	Use driver.find_element_by_name/id/x_path(“argument”)
+-->	To check weather some element of website is displayed or not
+                Variable_name.is_displayed()
+                Return TRUE if displayed on website and FALSE if not displayed on website.
+-->	To check weather some element is enable or not
+                Variable_name.is_enabled()
+                Return TRUE if enabled on website and FALSE if not enabled on website.
+--> To print status of selected button 
+           Variable.is_selected()
+
+
+
+
