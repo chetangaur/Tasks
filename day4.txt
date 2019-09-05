@@ -1,0 +1,22 @@
+.send_keys(“ ”) -> This is use to enter some text in selected Element.
+.clear()        -> This will clear the default value present in Selected element.    
+.click()        -> To click on the selected element
+
+
+# Expected condition
+
+To import it :-
+ 
+from selenium.webdriver.support.expected_conditons as EC
+
+For more info about Expected condition:
+
+https://seleniumhq.github.io/selenium/docs/api/py/webdriver_support/selenium.webdriver.support.expected_conditions.html?highlight=expected%20conditions#selenium.webdriver.support.expected_conditions
+visit this
+
+#  EXPLICIT WAIT
+
+Wait = WebDriverWait(driver,Max time to wait)
+element=Wait.until(EC.element_to_be_clickable/any condition
+
+element.click()                      
